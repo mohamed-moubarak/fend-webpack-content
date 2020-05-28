@@ -20,3 +20,20 @@ app.listen(8080, function () {
 app.get('/test', function (req, res) {
     res.send(mockAPIResponse)
 })
+
+
+
+// app.use(express.static('src/client'))
+
+// console.log(__dirname)
+
+// app.get('/', function (req, res) {
+//     res.sendFile('/client/views/index.html', { root: __dirname + '/..' })
+// })
+
+// // designates what port the app will listen to for incoming requests
+// app.listen(8080, function () {
+//     console.log('Example app listening on port 8080!')
+// })
+
+
